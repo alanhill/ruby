@@ -328,7 +328,7 @@ module URI
   #   html_string.slice(URI.regexp)
   #
   #   # remove ftp URIs
-  #   html_string.sub(URI.regexp(['ftp'])
+  #   html_string.sub(URI.regexp(['ftp'], <string>))
   #
   #   # You should not rely on the number of parentheses
   #   html_string.scan(URI.regexp) do |*matches|
